@@ -1,0 +1,28 @@
+// 선택 항목 '예시'. 사용자가 원할 때만 추가하며, 화면에서 검증되지 않은 출발점임을 안내합니다.
+// 태그는 흔히 쓰이는 영어 태그 표기를 참고한 것으로, NovelAI V5에서 효과가 확인된 목록이 아닙니다.
+export const EXAMPLE_OPTIONS: { category: string; label: string; tag: string }[] = [
+  { category: 'eyes', label: '눈 감음', tag: 'closed eyes' },
+  { category: 'eyes', label: '반쯤 감은 눈', tag: 'half-closed eyes' },
+  { category: 'eyes', label: '눈 크게 뜸', tag: 'wide-eyed' },
+  { category: 'eyes', label: '찌푸린 눈썹', tag: 'furrowed brow' },
+  { category: 'eyes', label: '치켜올린 눈썹', tag: 'raised eyebrows' },
+  { category: 'mouth', label: '미소', tag: 'smile' },
+  { category: 'mouth', label: '입 벌림', tag: 'open mouth' },
+  { category: 'mouth', label: '입 다묾', tag: 'closed mouth' },
+  { category: 'mouth', label: '입 삐죽', tag: 'pout' },
+  { category: 'mouth', label: '물결 입', tag: 'wavy mouth' },
+  { category: 'gaze', label: '시선 회피', tag: 'looking away' },
+  { category: 'gaze', label: '정면 응시', tag: 'looking at viewer' },
+  { category: 'gaze', label: '아래를 봄', tag: 'looking down' },
+  { category: 'gaze', label: '곁눈질', tag: 'looking to the side' },
+  { category: 'pose', label: '고개 갸웃', tag: 'head tilt' },
+  { category: 'pose', label: '고개 숙임', tag: 'head down' },
+  { category: 'pose', label: '팔짱', tag: 'crossed arms' },
+  { category: 'hands', label: '손으로 입 가림', tag: 'hand over own mouth' },
+  { category: 'hands', label: '볼에 손', tag: 'hand on own cheek' },
+  { category: 'hands', label: '손 흔들기', tag: 'waving' },
+  { category: 'extra', label: '홍조', tag: 'blush' },
+  { category: 'extra', label: '땀', tag: 'sweat' },
+  { category: 'extra', label: '땀방울 표시', tag: 'sweatdrop' },
+  { category: 'extra', label: '눈물', tag: 'tears' },
+]
